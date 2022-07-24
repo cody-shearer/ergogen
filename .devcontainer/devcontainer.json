@@ -7,12 +7,10 @@
     "PROMPT_COMMAND": "history -a"
   },
   "mounts": [
-    "type=volume,source=ergogen-root-user,target=/root",
   ],
   "extensions": ["christian-kohler.npm-intellisense",
                 "ms-azuretools.vscode-docker"],
   "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
   },
   "forwardPorts": [3000]
 }
