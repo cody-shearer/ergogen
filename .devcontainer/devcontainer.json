@@ -3,13 +3,10 @@
   "dockerFile": "Dockerfile",
   "runArgs": ["--security-opt", "label=disable"],
   "containerEnv": {
-    "WORKSPACE_DIR": "${containerWorkspaceFolder}",
-    "PROMPT_COMMAND": "history -a"
   },
   "mounts": [
   ],
-  "extensions": ["christian-kohler.npm-intellisense",
-                "ms-azuretools.vscode-docker"],
+  "extensions": ["christian-kohler.npm-intellisense"],
   "settings": {
   },
   "forwardPorts": [3000]
